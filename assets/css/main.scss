@@ -49,6 +49,17 @@
     color: #fff;
   }
 
+  #gitalk-container .gt-comment-avatar img {
+    width: 40px; /* 设置头像的宽度 */
+    height: 40px; /* 设置头像的高度 */
+  }
+
+  /* 调整Gitalk评论插件中图片的大小 */
+#gitalk-container .gt-comment-content img {
+    max-width: 100%; /* 设置图片的最大宽度为父容器的宽度 */
+    height: auto; /* 让图片的高度自适应 */
+  }
+  
 @mixin darkMode {
     --bg_color: #1C1C1E;
     --header_bg: #24292E;
