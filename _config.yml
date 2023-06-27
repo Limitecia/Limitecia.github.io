@@ -45,3 +45,9 @@ show_drafts: null
 limit_posts: 0
 future:      false
 unpublished: false
+
+gitalk:
+  clientID: "b05868f78c71baddcd5b"
+  clientSecret: "7b4d0a0c0001f3b5f2b8d746cb3208611dbfe24f"
+  repo: "limitecia.github.com"
+  owner: "limitecia"
