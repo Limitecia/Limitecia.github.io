@@ -36,6 +36,19 @@
 
 }
 
+#gitalk-container .gt-comment-box {
+    width: 100%;
+  }
+  
+  #gitalk-container .gt-editor {
+    height: 300px;
+  }
+  
+  #gitalk-container .gt-btn {
+    background-color: #007bff;
+    color: #fff;
+  }
+
 @mixin darkMode {
     --bg_color: #1C1C1E;
     --header_bg: #24292E;
