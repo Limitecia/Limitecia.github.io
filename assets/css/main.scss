@@ -36,25 +36,6 @@
 
 }
 
-gitalk-container .gt-comment-box {
-    width: 100%;
-  }
-  
-gitalk-container .gt-editor {
-    height: 300px;
-  }
-  
-gitalk-container .gt-btn {
-    background-color: #007bff;
-    color: #fff;
-  }
-
-/* 调整Gitalk评论插件中图片的大小 */
-gitalk-container .gt-comment-content img {
-    max-width: 10%; /* 设置图片的最大宽度为父容器的宽度 */
-    height: auto; /* 让图片的高度自适应 */
-  }
-  
 
 
   

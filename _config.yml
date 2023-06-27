@@ -46,8 +46,17 @@ limit_posts: 0
 future:      false
 unpublished: false
 
-gitalk:
-  clientID: "b05868f78c71baddcd5b"
-  clientSecret: "7b4d0a0c0001f3b5f2b8d746cb3208611dbfe24f"
-  repo: "limitecia.github.com"
-  owner: "limitecia"
+params:
+  enableGitalk: true
+  gitalk:
+    clientID: "b05868f78c71baddcd5b" # 您刚才创建Github Application 的 Client ID
+    clientSecret: "26c6bb4e3addb5b3d38af38c68eb1e69756fc730" # 您刚才创建Github Application 的 Client Secret
+    repo: "limitecia.github.io" # 您的博客的github地址Repository name，例如：xxxx.github.io
+    owner: "limitecia" # 您的GitHub ID
+    admin: "limitecia" # 您的GitHub ID
+    id: "location.pathname" # 文章页面的链接地址就是ID
+    labels: "gitalk" # Github issue labels. If you used to use Gitment, you can change it
+    perPage: 15 # Pagination size, with maximum 100.
+    pagerDirection: "last" # Comment sorting direction, available values are 'last' and 'first'.
+    createIssueManually: true # 设置为true，如果是管理员登录，会自动创建issue，如果是false，需要管理员手动添加第一个评论(issue)
+    distractionFreeMode: false # Enable hot key (cmd|ctrl + enter) submit comment.
