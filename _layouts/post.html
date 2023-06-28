@@ -22,11 +22,13 @@ layout: page
   </div>
   <div class="post_content">
     {{ content }}
+
     <!-- 在正文开头添加网易云音乐插件 -->
+    <br><br><br>
     {% if page.music-id %}
     {% include cloud-music.html %}
     {% endif %} 
-    {{ content }}
+    
   </div>
 
 
