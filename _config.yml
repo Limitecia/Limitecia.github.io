@@ -1,5 +1,5 @@
 
-title: Limitecia'Blog|HAKUNA MATATA #Your awesome title
+title: Limitecia's Blog|HAKUNA MATATA #Your awesome title
 email: 1147826746@qq.com #youremail@domain.com
 description:  > # this means to ignore newlines until "baseurl"
 baseurl: # the subpath of the site
@@ -16,7 +16,7 @@ cusdis:
     app_id: #your cusdis app_id
 
 user:
-  name: Limitecia'Blog
+  name: Limitecia's Blog
   pic: /assets/img/pikaqiu.jpg
   picAlt: "Limitecia"
   job: Limitecia who?
