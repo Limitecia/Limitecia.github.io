@@ -4,7 +4,7 @@ categories: [Notes]
 comments: true
 ---
 
-## Windows 定时关机指令
+## Windows定时关机指令 
 
 ### 设定定时关机
 ```bash
